@@ -1,19 +1,28 @@
+/*@font-face {
+    font-family: 'Resource Han Rounded CN';
+    src: url('../fonts/RHR-CN-0.990/ResourceHanRoundedCN-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}*/
 
 header {
     display: flex;
     align-items: center;
     margin: 20px;
+    margin-bottom: 100px;
+    
 }
 
 .logo {
     width: 60px;
     height: 60px;
     margin-right: 10px;
+
 }
 
 .site-name {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 30px;
+    /*font-family: 'Resource Han Rounded CN-Bold', Arial, sans-serif;*/
 }
 
 .container {
@@ -59,7 +68,7 @@ header {
     margin: 0 20px 20px;
 }
 
-.card:not(:has(img))::before {
+.card img:empty:before {
     content: "";
     display: block;
     width: 100%;
@@ -68,6 +77,10 @@ header {
     background-image: url('/img/green.svg');
     background-size: cover;
     background-position: center center;
+}
+
+img[src=""],img:not([src]){
+    opacity: 0;/*没有指定图片时透明度为0*/
 }
 
 @media screen and (max-width: 600px) {
