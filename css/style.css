@@ -10,7 +10,7 @@ header {
     align-items: center;
     margin: 20px;
     margin-bottom: 100px;
-    
+    position: relative;
 }
 
 .logo {
@@ -25,6 +25,20 @@ header {
     /*font-family: 'Resource Han Rounded CN-Bold', Arial, sans-serif;*/
 }
 
+header a {
+    float: right;
+    text-decoration: none;
+    color: #888;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+header a:hover {
+    color: #333;
+    font-size: 20px;
+    transform: scale(1.1);
+}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -44,7 +58,6 @@ header {
     border-radius: 5px;
     overflow: hidden;
     transition: transform 0.3s ease;
-    cursor: pointer;
 }
 
 .card:hover {
@@ -63,9 +76,38 @@ header {
     margin: 20px;
 }
 
+.card h3 span {
+    font-style: italic;
+    font-size: 16px;
+    color: #333;
+}
+
 .card p {
     font-size: 16px;
     margin: 0 20px 20px;
+}
+
+.toxicity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 40px;
+    background-color: #f2f2f2;
+}
+  
+.toxicity span {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+  
+.toxicity .toxic {
+    color: red;
+}
+  
+.toxicity .non-toxic {
+    color: green;
 }
 
 .card img:empty:before {
