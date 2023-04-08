@@ -129,3 +129,38 @@ img[src=""],img:not([src]){
         font-size: 20px;
     }
 }
+
+/*关于*/
+
+blockquote {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f8f8f8;
+    position: relative;
+    margin: 20px 0;
+}
+  
+blockquote:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    height: 100%;
+    width: 10px;
+    background-color: #8cc63f;
+}
+
+.about-body {
+    justify-content: center;
+    align-items: stretch;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-bottom: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-body a {
+    color: #105e20;
+}
