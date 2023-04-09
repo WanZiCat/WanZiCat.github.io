@@ -34,7 +34,7 @@
 
 如果发现本网站有任何错误，请及时通过邮箱或 QQ 联系我，也可以在本网站的 [GitHub 仓库](https://github.com/WanZiCat/WanZiCat.github.io)创建 [Issuse](https://github.com/WanZiCat/WanZiCat.github.io/issues)，我会在确认后改正，谢谢。
 
-- 邮箱：ztc1921@163.com
+- 邮箱：cdfp_c1921@163.com
 - QQ：915504817
 
 ---

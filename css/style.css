@@ -137,7 +137,7 @@ blockquote {
     padding: 10px;
     background-color: #f8f8f8;
     position: relative;
-    margin: 20px 0;
+    margin: 20px 50px;
 }
   
 blockquote:before {
@@ -152,13 +152,13 @@ blockquote:before {
 }
 
 .about-body {
+    padding: 20px;
+    box-sizing: border-box;
     justify-content: center;
     align-items: stretch;
     margin: 0 auto;
     max-width: 800px;
     margin-bottom: 500px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .about-body a {
