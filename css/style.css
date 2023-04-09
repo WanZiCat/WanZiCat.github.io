@@ -32,6 +32,61 @@ header a:hover {
     transform: scale(1.1);
 }
 
+/*警告----------------------------------------*/
+
+.warning {
+    background-color: #ffc107;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.alert {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.alert img {
+    vertical-align: middle;
+    height: 1.5em;
+    margin-right: 5px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+/*------------------------------------*/
+
 .container {
     display: flex;
     flex-wrap: wrap;
