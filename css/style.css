@@ -184,6 +184,9 @@ img[src=""],img:not([src]){
     .toxicity span {
         font-size: 20px;
     }
+blockquote { 
+     margin: 20px 20px; 
+ }
 }
 
 /*关于*/
