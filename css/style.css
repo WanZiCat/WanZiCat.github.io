@@ -32,16 +32,13 @@ header a:hover {
     transform: scale(1.1);
 }
 
-/*警告----------------------------------------*/
-
-.warning {
-    background-color: #ffc107;
-    color: #000000;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    margin-bottom: 50px;
+.notice {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 80px;
 }
+
+/*警告----------------------------------------*/
 
 .alert {
     padding: 0.75rem 1.25rem;
@@ -49,6 +46,8 @@ header a:hover {
     border: 1px solid transparent;
     border-radius: 0.25rem;
 }
+
+
 
 .alert span {
     font-weight: bold;
