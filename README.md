@@ -24,7 +24,7 @@
 
 ## 数据来源
 
-本网站列举的对猫、狗有毒或无毒植物，来自[美国爱护动物协会（*ASPCA*）](https://www.aspca.org/)；学名对应的中文名等信息，来自[中国生物志库](https://species.sciencereading.cn/biology/v/biologicalIndex/122.html)。
+本网站列举的对猫、狗有毒或无毒植物，来自[美国爱护动物协会（*ASPCA*）](https://www.aspca.org/)；学名对应的中文名等信息，来自[物种 2000 中国节点](http://www.sp2000.org.cn/)。
 
 在整理过程中，对美国爱护动物协会错误的植物信息进行了改正，对记录不准确，不能准确对应到学名的进行舍弃。
 
