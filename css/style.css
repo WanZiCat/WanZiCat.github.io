@@ -59,7 +59,7 @@ header a:hover {
     vertical-align: middle;
     height: 1.5em;
     margin-right: 5px;
-    fill: ;/*！！！！！！！！！！！！！！这里需要设置为与父级一致的颜色！！！！！*/
+    fill: inherit;
 }
 
 .alert-success {
@@ -184,9 +184,6 @@ img[src=""],img:not([src]){
     .toxicity span {
         font-size: 20px;
     }
-blockquote { 
-     margin: 20px 20px; 
- }
 }
 
 /*关于*/
@@ -196,7 +193,7 @@ blockquote {
     padding: 10px;
     background-color: #f8f8f8;
     position: relative;
-    margin: 20px 50px;
+    margin: 20px 20px;
 }
   
 blockquote:before {
@@ -222,4 +219,8 @@ blockquote:before {
 
 .about-body a {
     color: #105e20;
+}
+
+.footnotes-area {
+    margin-top: 100px;
 }
