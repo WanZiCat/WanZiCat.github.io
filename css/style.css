@@ -2,10 +2,6 @@ body {
     margin: 0;
 }
 
-body > *:not(footer) {
-    padding: 20px;
-}
-
 header {
     display: flex;
     align-items: center;
@@ -44,6 +40,7 @@ header a:hover {
     max-width: 800px;
     margin: auto;
     margin-bottom: 80px;
+    padding: 0px 10px;
 }
 
 /*警告----------------------------------------*/
@@ -106,12 +103,10 @@ header a:hover {
 
 .card {
     width: 300px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 60px;
+    margin: 30px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border-radius: 15px;
     overflow: hidden;
     transition: transform 0.3s ease;
 }
@@ -120,10 +115,15 @@ header a:hover {
     transform: scale(1.05);
 }
 
+.pic {
+    width: 300px;
+    height: 225px;
+}
+
 .card img {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100%;
+    object-fit: cover;
 }
 
 .card h3 {
@@ -136,11 +136,7 @@ header a:hover {
     font-style: italic;
     font-size: 16px;
     color: #333;
-}
-
-.card p {
-    font-size: 16px;
-    margin: 0 20px 20px;
+    margin: 0px;
 }
 
 .toxicity {
@@ -151,19 +147,20 @@ header a:hover {
     height: 40px;
     background-color: #f2f2f2;
 }
-  
-.toxicity span {
+
+.toxicity p {
     font-size: 14px;
     font-weight: bold;
     margin-right: 5px;
+    color: #646464;
 }
 
 .toxicity .toxic {
-    color: red;
+    color: rgb(219, 70, 70);
 }
 
 .toxicity .non-toxic {
-    color: green;
+    color: rgb(44, 194, 6);
 }
 
 .card img:empty:before {
@@ -184,11 +181,12 @@ img[src=""],img:not([src]){
 @media screen and (max-width: 600px) {
     .card {
         width: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 60px;
     }
-    .toxicity span {
+    .pic {
+        width: 100%;
+        height: auto;
+    }
+    .toxicity p {
         font-size: 20px;
     }
 }
@@ -244,7 +242,7 @@ footer {
 }
 
 .copyright a, .about-body a {
-    color: #105e20;
+    color: #319b27;
     text-decoration: none;
 }
 
