@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+}
+
+body > *:not(footer) {
+    padding: 20px;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -87,7 +95,7 @@ header a:hover {
 
 /*------------------------------------*/
 
-.container {
+.main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -216,10 +224,30 @@ blockquote:before {
     margin-bottom: 500px;
 }
 
-.about-body a {
-    color: #105e20;
-}
-
 .footnotes-area {
     margin-top: 100px;
+}
+
+footer {
+    width: 100%;
+    background-color: #ccc;
+    bottom: 0;
+    min-height: 200px;
+}
+
+.copyright {
+    color: #646464;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.copyright a, .about-body a {
+    color: #105e20;
+    text-decoration: none;
+}
+
+.copyright a:hover, .about-body a:hover {
+    text-decoration: underline;
 }
