@@ -1,53 +1,4 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,inital-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="css/style.css">
-	<title>猫狗友好植物</title>
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-</head>
-
-
-
-<body>
-	<header>
-		<img class="logo" src="img/LOGO/cdfp.svg" alt="Logo">
-		<h1 class="site-name">猫狗友好植物</h1>
-		<a href="about.html">关于</a>
-	</header>
-	<div class="notice">
-		<div class="alert alert-warning">
-			<span><img src="img/ico/alert_circle.svg">警告</span>
-			<p>本网站包含了对动物有全身影响或对胃肠道有强烈影响的植物。请注意，本网站中的信息并<strong>不是全面</strong>的，而是最常遇到的植物的汇总。个别植物在外观上可能与本网站中使用的照片不同，请务必检查植物的名称以确定其毒性。</p>
-			<p>此外，应注意，动物食用<strong>任何植物</strong>都可能会引起呕吐和胃肠不适。列为无毒或潜在有轻微胃肠不适的植物，其症状不会危及宠物生命。</p>
-		</div>
-		<div class="alert alert-danger">
-		<span><img src="img/ico/death_alt.svg">危险</span>
-		<p>如果您认为您的动物生病了或可能已经摄入了有毒物质，或者如果您对本网站中包含的信息有任何疑问，请联系您当地的兽医。</p>
-		</div>
-		<!--<div class="alert alert-warning">
-			<span><img src="img/ico/alert_circle.svg">警告</span>
-			<p>本网站正在测试中，请勿相信以下任何内容！</p>
-		</div>-->
-	</div>
-	
-	<!--<div class="alert alert-success">
-		<strong>成功：</strong> Your action was successful!
-	</div>-->
-	<!--<div class="alert alert-info">
-		<strong>通知：</strong> Please read this important message.
-	</div>-->
-	<!--<div class="alert alert-warning">
-		<strong>警告：</strong> Your action is not recommended.
-	</div>-->
-	<!--<div class="alert alert-danger">
-		<strong>危险：</strong> Your action is not allowed.
-	</div>-->
-
-	<div class="main">
-		<div class="card"><div class="pic"><img src="https://www.picturethisai.com/image-handle/website_cmsname/image/1080/154230257006673950.jpeg?x-oss-process=image/format,webp/resize,s_422&v=1.3" alt="酢浆草 Oxalis corniculata"></div><h3>酢浆草<br><span>Oxalis corniculata</span></h3><div class="toxicity"><div class="cats"><p>对猫：<span class="toxic">有毒</span></p></div><div class="dogs"><p>对狗：<span class="toxic">有毒</span></p></div></div></div>
+﻿		<div class="card"><div class="pic"><img src="https://www.picturethisai.com/image-handle/website_cmsname/image/1080/154230257006673950.jpeg?x-oss-process=image/format,webp/resize,s_422&v=1.3" alt="酢浆草 Oxalis corniculata"></div><h3>酢浆草<br><span>Oxalis corniculata</span></h3><div class="toxicity"><div class="cats"><p>对猫：<span class="toxic">有毒</span></p></div><div class="dogs"><p>对狗：<span class="toxic">有毒</span></p></div></div></div>
 		<div class="card"><div class="pic"><img src="https://www.picturethisai.com/image-handle/website_cmsname/image/1080/154038585501155368.jpeg?x-oss-process=image/format,webp/resize,s_422&v=1.3" alt="醉娇花 Hamelia patens"></div><h3>醉娇花<br><span>Hamelia patens</span></h3><div class="toxicity"><div class="cats"><p>对猫：<span class="non-toxic">无毒</span></p></div><div class="dogs"><p>对狗：<span class="non-toxic">无毒</span></p></div></div></div>
 		<div class="card"><div class="pic"><img src="https://www.picturethisai.com/image-handle/website_cmsname/image/1080/154109564130689045.jpeg?x-oss-process=image/format,webp/resize,s_422&v=1.3" alt="醉蝶花 Tarenaya hassleriana"></div><h3>醉蝶花<br><span>Tarenaya hassleriana</span></h3><div class="toxicity"><div class="cats"><p>对猫：<span class="non-toxic">无毒</span></p></div><div class="dogs"><p>对狗：<span class="non-toxic">无毒</span></p></div></div></div>
 		<div class="card"><div class="pic"><img src="https://www.picturethisai.com/image-handle/website_cmsname/image/1080/154166060130500631.jpeg?x-oss-process=image/format,webp/resize,s_422&v=1.3" alt="钻果大蒜芥 Sisymbrium officinale"></div><h3>钻果大蒜芥<br><span>Sisymbrium officinale</span></h3><div class="toxicity"><div class="cats"><p>对猫：<span class="non-toxic">无毒</span></p></div><div class="dogs"><p>对狗：<span class="non-toxic">无毒</span></p></div></div></div>
@@ -1846,16 +1797,3 @@
 		<div class="card"><div class="pic"><img src="https://www.picturethisai.com/image-handle/website_cmsname/image/1080/393491932869820416.jpeg?x-oss-process=image/format,webp/resize,s_422&v=1.3" alt="阿拉伯芥 Arabidopsis thaliana"></div><h3>阿拉伯芥<br><span>Arabidopsis thaliana</span></h3><div class="toxicity"><div class="cats"><p>对猫：<span class="non-toxic">无毒</span></p></div><div class="dogs"><p>对狗：<span class="non-toxic">无毒</span></p></div></div></div>
 		<div class="card"><div class="pic"><img src="https://www.picturethisai.com/image-handle/website_cmsname/image/1080/224655003226701824.jpeg?x-oss-process=image/format,webp/resize,s_422&v=1.3" alt="阿尔泰铁角蕨 Asplenium scolopendrium"></div><h3>阿尔泰铁角蕨<br><span>Asplenium scolopendrium</span></h3><div class="toxicity"><div class="cats"><p>对猫：<span class="non-toxic">无毒</span></p></div><div class="dogs"><p>对狗：<span class="non-toxic">无毒</span></p></div></div></div>
 		<div class="card"><div class="pic"><img src="https://www.picturethisai.com/image-handle/website_cmsname/image/1080/154018416334733348.jpeg?x-oss-process=image/format,webp/resize,s_422&v=1.3" alt="阿尔卑斯杜鹃 Rhododendron ferrugineum"></div><h3>阿尔卑斯杜鹃<br><span>Rhododendron ferrugineum</span></h3><div class="toxicity"><div class="cats"><p>对猫：<span class="toxic">有毒</span></p></div></div></div>
-
-
-		<!-- 这里可以添加更多卡片 -->
-	</div>
-	<footer>
-		<div class="copyright">
-			<p>© 2023 北邙</p>
-			<p>© 猫狗友好植物采用 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" target="_blank">CC BY-SA 4.0</a> 进行许可。</p>
-		</div>
-	</footer>
-</body>
-
-</html>
