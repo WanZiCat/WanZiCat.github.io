@@ -104,11 +104,11 @@ header a:hover {
 #filter {
     background-color: #f4f4f4;
     color: #333;
-    padding: 8px; /* 添加内边距以提高可读性 */
-    border: 1px solid #ccc; /* 添加边框以增强视觉效果 */
-    border-radius: 8px; /* 圆角边框 */
-    font-size: 16px; /* 设置字体大小 */
-    width: 200px; /* 设置宽度 */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 200px;
 }
 
 #filter:hover {
@@ -116,7 +116,7 @@ header a:hover {
   }
 
 #filter:focus {
-    outline: none; /* 移除聚焦时的边框 */
+    outline: none;
 } 
 
 /*------------------------------------*/
