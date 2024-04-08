@@ -97,6 +97,10 @@ header a:hover {
     text-align: center;
 }
 
+.select b {
+    color: #319b27;
+}
+
 #filter {
     background-color: #f4f4f4;
     color: #333;
