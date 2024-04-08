@@ -90,9 +90,34 @@ header a:hover {
     border-color: #f5c6cb;
 }
 
+/*选择框------------------------------*/
+
+.select {
+    margin: 20px;
+    text-align: center;
+}
+
+#filter {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 8px; /* 添加内边距以提高可读性 */
+    border: 1px solid #ccc; /* 添加边框以增强视觉效果 */
+    border-radius: 8px; /* 圆角边框 */
+    font-size: 16px; /* 设置字体大小 */
+    width: 200px; /* 设置宽度 */
+}
+
+#filter:hover {
+    background-color: #e0e0e0;
+  }
+
+#filter:focus {
+    outline: none; /* 移除聚焦时的边框 */
+} 
+
 /*------------------------------------*/
 
-.main {
+.items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -101,9 +126,13 @@ header a:hover {
     max-width: 1100px;
 }
 
+.non,.both,.cat,.dog {
+    width: 360px;
+}
+
 .card {
     width: 300px;
-    margin: 30px;
+    margin: 30px 0px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
@@ -184,10 +213,13 @@ img[src=""],img:not([src]){
     }
     .pic {
         width: 100%;
-        height: auto;
+        height: 200px;
     }
     .toxicity p {
         font-size: 20px;
+    }
+    #filter {
+        width: 300px; /* 设置宽度 */
     }
 }
 
