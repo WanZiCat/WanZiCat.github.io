@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="cdfp.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.4105"
+     inkscape:cx="209.50061"
+     inkscape:cy="215.59074"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">&#10;      .cls-1 {&#10;        fill: #fff;&#10;      }&#10;&#10;      .cls-2, .cls-3 {&#10;        fill: #8cc63f;&#10;      }&#10;&#10;      .cls-3 {&#10;        opacity: .7;&#10;      }&#10;    </style>
+  </defs>
+  <g
+     id="_层_2"
+     data-name="图层 2"
+     style="display:none">
+    <rect
+       class="cls-1"
+       y="0"
+       width="500"
+       height="500"
+       rx="100"
+       ry="100"
+       id="rect1"
+       x="0" />
+  </g>
+  <g
+     id="_层_1"
+     data-name="图层 1"
+     style="display:inline">
+    <path
+       class="cls-2"
+       d="M 130.04347,457.17392 H 207 c 0.0525,-41.90298 -4.17392,-242.34784 -168.52174,-258.52174 63.11731,68.93199 89.5646,139.40791 91.56521,258.52174 z"
+       id="path1" />
+    <path
+       class="cls-2"
+       d="m 222.13043,457.17392 h 78.78262 c 0,-27.91305 16.69564,-392.6087 -186.78262,-401.47827 97.56522,110.6087 108,288.78261 108,401.47827 z"
+       id="path2" />
+    <path
+       class="cls-3"
+       d="m 296.34783,222.78261 c 17.21738,35.47826 22.95652,94.30435 21.91304,109.56522 3.26087,-51 45.52174,-174.3913 80.73913,-208.82609 -33.91304,5.21739 -84.39131,31.43479 -102.65217,99.26087 z"
+       id="path3" />
+    <path
+       class="cls-2"
+       d="M 322.56522,457.17392 H 402.3913 C 402.3913,431.6087 394.40494,304.66437 465,203.60869 307.38696,226.75487 322.56522,442.30435 322.56522,457.17392 Z"
+       id="path4" />
+  </g>
+</svg>
