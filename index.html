@@ -105,13 +105,14 @@
 			</div>
 		  </article>
 	</div>
-	  
-
+	
+    
 
 	<section class="section">
 		<div class="container">
 
-			<div class="columns is-mobile is-multiline is-centered is-vcentered mt-6 pl-5">
+			<div class="columns box is-mobile is-multiline is-centered is-vcentered mt-3">
+
 				<div class="column is-narrow">
 					<div class="select">
 						<select id="filter">
@@ -123,13 +124,26 @@
 						</select>
 					</div>
 				</div>
-		
+
 				<div class="column is-narrow">
-					<p class="title is-4 mb-2">当前植物数量：<b><span id="filteredCount" class="has-text-success"></span></b></p>
+					<div class="control">
+						<p class="control has-icons-left has-icons-right">
+						<input id="search" class="input" type="text" placeholder="在当前分类中搜索植物..." />
+						<span class="icon is-small is-left">
+							<i class="fas fa-search"></i>
+						</span>
+						</p>
+					</div>
+				</div>
+
+				<div class="column is-narrow">
+					<p class="title is-5">当前植物数量：<b><span id="filteredCount" class="has-text-success"></span></b></p>
 				</div>	
+
 			</div>	
 
-			<div class="columns is-multiline px-6-desktop">
+			<div class="columns is-multiline px-6-desktop mt-6">
+
 				<div class="item non column is-4-desktop is-6-tablet px-5-desktop">
 					<div class="card">
 						<div class="card-image">
@@ -39719,6 +39733,7 @@
 	<script src="js/basic script.js"></script>
 	<script src="js/mobile menu.js"></script>
 	<script src="js/footer.js"></script>
+	<script src="js/search.js"></script>
 	<script src="https://kit.fontawesome.com/956b802913.js" crossorigin="anonymous"></script>
   </body>
 </html>
