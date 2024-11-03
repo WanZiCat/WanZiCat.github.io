@@ -40,5 +40,7 @@ else {
 });
 document.getElementById('filteredCount').textContent = filteredCount;
 }
-window.onload = filterItems;
+document.addEventListener('DOMContentLoaded', function() {
+  filterItems();
+});
 document.getElementById('filter').addEventListener('change', filterItems);
